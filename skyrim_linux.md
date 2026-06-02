@@ -24,7 +24,7 @@ Add the following options if you want it: `PROTON_ENABLE_HDR=1 DXVK_HDR=1 ENABLE
 Those are troublesome. They reqire setting Wine compatibility to Windows XP and this cannot be done to the main game prefix. There is a workaround. I'll use Bottles.
 
 1. Create a new Bottle, let's call it SSEEdit
-2. In the settings set the program to *Soda 9.0.1* and the version of Winwods to _Windows XP_
+2. In the settings set the program to *Soda 9.0.1* and the version of Windods to _Windows XP_
 3. Look for the file called `~/.local/share/bottles/bottles/SSEEdit/bottle.yml` and copy it inside the Skyrim prefix directory
 4. `rm -rf ~/.local/share/bottles/bottles/SSEEdit`
 5. `ln -s SKYRIM_PREFIX ~/.local/share/bottles/bottles/SSEEdit`
