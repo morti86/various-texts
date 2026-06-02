@@ -63,3 +63,5 @@ If requires setting a launch option as below:
 - OutfitStudio
 - TexGen
 - DynDOLOD
+
+In case of TexGen and DynDOLOD remember to not use the option to zip files. Let it just write the directories and then zip it yourself.
