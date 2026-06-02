@@ -15,7 +15,7 @@ Use Proton (GE) 10 because Proton 11 prevents the game from loading. This must b
 I consider ENB to be a legacy solution now. CS has grown so much that I see no point fighting with it. CS just works. CS looks great and has plenty of modern features. It has one click upscaling/framegen support too.
 
 ### Reshade
-Choose the version for DirectX 11
+Add the installer to the executables and run it. Choose the version for DirectX 11
 
 ### HDR
 Add the following options if you want it: `PROTON_ENABLE_HDR=1 DXVK_HDR=1 ENABLE_HDR_WSI=1 %`
