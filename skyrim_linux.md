@@ -9,7 +9,7 @@ Options:
 `PROTON_DXVK_LOWLATENCY=1 PROTON_ENABLE_WAYLAND=1 command%`
 
 ## Proton version
-Use Proton (GE) 10 because Proton 11 prevents the game from loading. This must be the issue of some DLL mod not working under it. If I find the solution, I'll post it.
+Frame generation is broken with Proton 11, so keep that in mind and do not use it or stay on Proton 10 until it is fixed. Upscaler works.
 
 ## Community Shaders
 I consider ENB to be a legacy solution now. CS has grown so much that I see no point fighting with it. CS just works. CS looks great and has plenty of modern features. It has one click upscaling/framegen support too.
@@ -24,7 +24,7 @@ Add the following options if you want it: `PROTON_ENABLE_HDR=1 DXVK_HDR=1 ENABLE
 Those are troublesome. They reqire setting Wine compatibility to Windows XP and this cannot be done to the main game prefix. There is a workaround. I'll use Bottles.
 
 1. Create a new Bottle, let's call it SSEEdit
-2. In the settings set the program to *Soda 9.0.1* and the version of Windods to _Windows XP_
+2. In the settings set the program to *Soda 9.0.1* and the version of Windows to _Windows XP_
 3. Look for the file called `~/.local/share/bottles/bottles/SSEEdit/bottle.yml` and copy it inside the Skyrim prefix directory
 4. `rm -rf ~/.local/share/bottles/bottles/SSEEdit`
 5. `ln -s SKYRIM_PREFIX ~/.local/share/bottles/bottles/SSEEdit`
