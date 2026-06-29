@@ -9,7 +9,7 @@ Options:
 `PROTON_DXVK_LOWLATENCY=1 PROTON_ENABLE_WAYLAND=1 command%`
 
 ## Proton version
-Frame generation is broken with Proton 11, so keep that in mind and do not use it or stay on Proton 10 until it is fixed. Upscaler works.
+Frame generation is broken with Proton 11 so keep that in mind and do not use it or stay on Proton 10 until it is fixed. Upscaler works, but trying to raise FSR to 4.1.1 fails and the game reverts to FSR3 (tested on 7900XT with latest ProtonEM).
 
 ## Community Shaders
 I consider ENB to be a legacy solution now. CS has grown so much that I see no point fighting with it. CS just works. CS looks great and has plenty of modern features. It has one click upscaling/framegen support too.
@@ -43,7 +43,7 @@ If it still loads the vanilla CK, then try setting DLL overrides:
 <img width="707" height="476" alt="image" src="https://github.com/user-attachments/assets/b65cfac8-3720-4784-abf2-4036560ce9a4" />
 
 ## Pandora Engine
-Works fine although there can be a glitch if you install new plugin and need to rerun it. If it throws error than rerun it with only the base ticked, close it and then run it with all stuff selected.
+Works fine, but for this and the BodySlide you should set the output folder outside the Skyrim game folder, zip it when it is done and install it as a mod through mod manager. This way a lot of trouble can be spared.
 
 ### TK Dodge
 This one can be troublesome because it is three plugins for compatibility. Use:
