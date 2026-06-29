@@ -36,11 +36,15 @@ Steam uses *steamuser* while Bottles uses your username. In this case do the fol
 And try if it works now. If it does but shows only the base game it is all right. Now you need to close it, in the mod manager in the data tab use *browse VFS* button to mount the VFS. Then when you run SSEEdit again, you should see all mods.
 
 ## Creation Kit
-I do not know whether it works right. I can see some issues with the call view window: trying to drag and drop items is troublesome. There might be other problems too.
+I do not know whether it works right. 
 Install the [Creation Kit Platform Extended](https://www.nexusmods.com/skyrimspecialedition/mods/71371) into the game main directory. Not through the mod manager.
 
 If it still loads the vanilla CK, then try setting DLL overrides:
 <img width="707" height="476" alt="image" src="https://github.com/user-attachments/assets/b65cfac8-3720-4784-abf2-4036560ce9a4" />
+
+If you encounter the problem with cell view, not being able to add new objects, then you need to remove Wayland flags from the launch options for the time of using CK.
+
+[papyrus-compiler](https://github.com/russo-2025/papyrus-compiler) is a tool that should allow one to compile scripts under Linux. The one in CK does not seem to work.
 
 ## Pandora Engine
 Works fine, but set the output directories to somwehere outside the game folder completely. Then zip the output folder and install it like a mod with the mod manager. Same story for BodySlide.
