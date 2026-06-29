@@ -43,7 +43,7 @@ If it still loads the vanilla CK, then try setting DLL overrides:
 <img width="707" height="476" alt="image" src="https://github.com/user-attachments/assets/b65cfac8-3720-4784-abf2-4036560ce9a4" />
 
 ## Pandora Engine
-Works fine, but for this and the BodySlide you should set the output folder outside the Skyrim game folder, zip it when it is done and install it as a mod through mod manager. This way a lot of trouble can be spared.
+Works fine, but set the output directories to somwehere outside the game folder completely. Then zip the output folder and install it like a mod with the mod manager. Same story for BodySlide.
 
 ### TK Dodge
 This one can be troublesome because it is three plugins for compatibility. Use:
